@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,600;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Muli', sans-serif;;
+    font-size: 10px;
+}
+.navbar{
+    background-color: white;
+    color: black;
+}
+#home{
+    background-color: yellow;
+    color: white;
+    color: black;
+    height: 800px;
+}
+#home h2{
+    font-size: 60px;
+    font-style: obliques;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.navbar ul {
+    display: flex;
+    font-style: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    border: black;
+}
+.nav-link{
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.column img{
+      width: :460px;
+      height: 300px;
+      margin-left: 80px;
+  }
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-color: white;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius:20%;
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.part3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 80px;
+    margin-top: 40px;
+    height: 220px;
+}
+.part3 ul{
+    list-style: none;
+}
+
+.part3 ul li {
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.lang{
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-start;
+    margin-left: 209px;
+    margin-bottom: 40px;
+}
+.stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    width: auto; 
+    height: 40px;
+}
+.finalstuff{
+    margin-left: 209px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.namefont{
+    font-family: 'Sofia', cursive;
+    font-weight: 600;
+    color: coral;
+}
